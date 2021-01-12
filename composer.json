@@ -1,5 +1,5 @@
 {
-  "name": "paragonie/multi-factor",
+  "name": "symvaro/multi-factor",
   "description": "Vendor-agnostic two-factor authentication library",
   "keywords": [
     "TOTP",
@@ -14,8 +14,7 @@
   ],
   "license": [
     "GPL-3.0+",
-    "MIT",
-    "proprietary"
+    "MIT"
   ],
   "type": "library",
   "authors": [
@@ -27,9 +26,8 @@
     }
   ],
   "support": {
-    "issues":   "https://github.com/paragonie/multi_factor/issues",
-    "email":    "info@paragonie.com",
-    "source":   "https://github.com/paragonie/multi_factor"
+    "issues":   "https://github.com/symvaro/multi_factor/issues",
+    "source":   "https://github.com/symvaro/multi_factor"
   },
   "require": {
     "php": "^7|^8",

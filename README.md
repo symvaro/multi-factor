@@ -1,12 +1,13 @@
 # Multi-Factor
 
-[![Build Status](https://travis-ci.org/paragonie/multi_factor.svg?branch=master)](https://travis-ci.org/paragonie/multi_factor)
-
+Fork of [paragonie/multi_factor](https://github.com/paragonie/multi_factor).
 Designed to be a vendor-agnostic implementation of various Two-Factor 
 Authentication solutions.
 
-Developed by [Paragon Initiative Enterprises](https://paragonie.com) for use
-in our own projects. It's released under a dual license: GPL and MIT. As with
+Initially developed by [Paragon Initiative Enterprises](https://paragonie.com) for use
+in their own projects. Forked to remove the barcode writer dependency.
+
+It's released under a dual license: GPL and MIT. As with
 all dual-licensed projects, feel free to choose the license that fits your
 needs.
 
@@ -19,7 +20,7 @@ needs.
 ## Installing
 
 ```sh
-composer require paragonie/multi-factor
+composer require symvaro/multi-factor
 ```
 
 ## Example Usage
